@@ -37,7 +37,6 @@ A full-stack camera rental platform where **customers** can book cameras and equ
 - **Authentication:** JWT (JSON Web Tokens)
 - **File Uploads:** Multer
 - **Payment:** Razorpay (conditional, after vendor acceptance)
-- **Hosting:** Can be deployed on Vercel (frontend) and Render/Heroku (backend)
 
 ---
 
