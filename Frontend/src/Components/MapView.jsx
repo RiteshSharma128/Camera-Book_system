@@ -27,7 +27,7 @@
 import { useEffect } from "react";
 import io from "socket.io-client";
 
-const socket = io("https://camera-book-system-1.onrender.com");
+const socket = io("https://camera-book-system.onrender.com");
 
 export default function LiveTracking({ bookingId }) {
   useEffect(() => {
