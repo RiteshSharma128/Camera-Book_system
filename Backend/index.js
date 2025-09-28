@@ -460,7 +460,7 @@ const app = express();
 // ✅ Middlewares
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:3000"], // frontend URLs
+    origin: ["https://camera-book-system-1.onrender.com", "http://localhost:3000"], // frontend URLs
     credentials: true,
   })
 );
