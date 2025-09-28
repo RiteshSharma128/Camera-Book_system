@@ -4,7 +4,7 @@ import { createContext } from "react";
 export const authDataContext = createContext();
 
 function AuthContext({ children }) {
-  let serverUrl = "http://localhost:5000";
+  let serverUrl = "https://camera-book-system.onrender.com";
 
   let value = {
     serverUrl,
